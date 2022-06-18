@@ -1,7 +1,7 @@
 {
   "name": "@mahdikhashan/v-on-page-video",
   "description": "A Vue.js page visibility video controler directive",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "scripts": {
     "start": "babel-node src",
