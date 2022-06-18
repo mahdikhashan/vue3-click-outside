@@ -26,6 +26,10 @@
     "type": "git",
     "url": "https://github.com/mahdikhashan/v-on-page"
   },
+  "bugs": {
+    "url": "https://github.com/mahdikhashan/v-on-page-video/issues",
+    "email": "mahdikhashan1@gmail.com"
+  },
   "keywords": [
     "vue",
     "vue2",
