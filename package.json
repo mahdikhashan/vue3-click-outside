@@ -1,6 +1,6 @@
 {
-  "name": "@mahdikhashan/v-on-page",
-  "description": "A Vue.js page visibility directive",
+  "name": "@mahdikhashan/v-on-page-video",
+  "description": "A Vue.js page visibility video controler directive",
   "version": "0.1.0",
   "main": "lib/index.js",
   "scripts": {
