@@ -11,6 +11,9 @@
 
 --- 
 
+## Demo
+
+[Demo](https://codesandbox.io/s/vue-onpagevideo-custom-directive-85p0oo)
 
 
 ## Installation
@@ -45,3 +48,17 @@ export default {
 };
 </script>
 ```
+
+## Contributing
+
+If you want to contribute to this project simply fork it and clone it then run
+`npm i`
+in the root of the project, then run
+`npm run start`
+to run development server.
+
+### Licence and cast
+
+MIT Licence
+
+by [Mahdi Khashan](https://www.linkedin.com/in/mahdi-khashan-ir/)
