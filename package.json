@@ -18,7 +18,9 @@
     "jest": "^28.1.1",
     "rimraf": "^3.0.2"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "vue": "2.x.x"
+  },
   "homepage": "https://github.com/mahdikhashan/v-on-page#readme",
   "repository": {
     "type": "git",
