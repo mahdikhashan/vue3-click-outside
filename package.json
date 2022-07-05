@@ -1,7 +1,7 @@
 {
-  "name": "@mahdikhashan/v-on-page-video",
-  "description": "A Vue.js page visibility video controler directive",
-  "version": "0.1.3",
+  "name": "@mahdikhashan/vue3-click-outside",
+  "description": "A Vue.js 3 click outside custom directive",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "scripts": {
     "start": "babel-node src",
@@ -9,7 +9,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -19,22 +19,22 @@
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
-    "vue": "2.x.x"
+    "vue": "3.x.x"
   },
-  "homepage": "https://github.com/mahdikhashan/v-on-page#readme",
+  "homepage": "https://github.com/mahdikhashan/vue3-click-outside#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mahdikhashan/v-on-page"
+    "url": "https://github.com/mahdikhashan/vue3-click-outside"
   },
   "bugs": {
-    "url": "https://github.com/mahdikhashan/v-on-page-video/issues",
+    "url": "https://github.com/mahdikhashan/vue3-click-outside/issues",
     "email": "mahdikhashan1@gmail.com"
   },
   "keywords": [
     "vue",
-    "vue2",
+    "vue3",
     "directive",
-    "visibilitychange"
+    "click-out-side"
   ],
   "author": "Mahdi Khashan",
   "license": "MIT"
