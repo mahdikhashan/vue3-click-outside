@@ -1,7 +1,7 @@
 {
   "name": "@mahdikhashan/vue3-click-outside",
   "description": "A Vue.js 3 click outside custom directive",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "scripts": {
     "start": "babel-node src",
