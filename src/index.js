@@ -1,34 +1,15 @@
-export const onPageVideo = {
-  inserted: function (el) {
-    
-    var hidden, visibilityChange;
-    if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
-      hidden = "hidden";
-      visibilityChange = "visibilitychange";
-    } else if (typeof document.msHidden !== "undefined") {
-      hidden = "msHidden";
-      visibilityChange = "msvisibilitychange";
-    } else if (typeof document.webkitHidden !== "undefined") {
-      hidden = "webkitHidden";
-      visibilityChange = "webkitvisibilitychange";
-    }
-
-    el.onPageVideo = function (event) {
-      if (document[hidden]) {
-        el.pause();
-      } else {
-        el.play();
+export const clickOutSide = {
+  mounted: function(el, binding, vnode) {
+    el.clickOutsideEvent = function(event) {
+      if (!(el == event.target || el.contains(event.target))) {
+        binding.value(event, el)
       }
     }
-
-    // Warn if the browser doesn't support addEventListener or the Page Visibility API
-    if (typeof document.addEventListener === "undefined" || hidden === undefined) {
-      console.log("This demo requires a browser, such as Google Chrome or Firefox, that supports the Page Visibility API.");
-    } else {
-      // Handle page visibility change
-      document.addEventListener(visibilityChange, el.onPageVideo, false);
-    }
-  }
+    document.addEventListener("click", el.clickOutsideEvent)
+  },
+  unmounted: function(el) {
+    document.removeEventListener("click", el.clickOutsideEvent)
+  },
 }
 
-export default onPageVideo;
+export default clickOutSide
