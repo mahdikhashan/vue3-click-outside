@@ -1,4 +1,4 @@
-# v-on-page-video
+# vue3-click-outside
 ![npm (tag)](https://img.shields.io/npm/v/@mahdikhashan/v-on-page-video/latest?style=plastic)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mahdikhashan/v-on-page-video)
 ![npm](https://img.shields.io/npm/dy/@mahdikhashan/v-on-page-video)
@@ -6,7 +6,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/mahdikhashan/v-on-page-video)
 ![NPM](https://img.shields.io/npm/l/@mahdikhashan/v-on-page-video)
 
-## Directive for Vue 2 to pause and play the video element when page visibility changes like moving the tab to background
+## Directive for Vue 3 to run a method on clicking outside of the binded element
 
 
 --- 
@@ -19,7 +19,7 @@
 ## Installation
 
 ```
-npm install --save @mahdikhashan/v-on-page-video
+npm install --save @mahdikhashan/vue3-click-outside
 ```
 
 ## How to use
