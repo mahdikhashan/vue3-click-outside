@@ -1,10 +1,10 @@
 # vue3-click-outside
-![npm (tag)](https://img.shields.io/npm/v/@mahdikhashan/v-on-page-video/latest?style=plastic)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mahdikhashan/v-on-page-video)
-![npm](https://img.shields.io/npm/dy/@mahdikhashan/v-on-page-video)
-![npm peer dependency version](https://img.shields.io/npm/dependency-version/@mahdikhashan/v-on-page-video/peer/vue)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/mahdikhashan/v-on-page-video)
-![NPM](https://img.shields.io/npm/l/@mahdikhashan/v-on-page-video)
+![npm (tag)](https://img.shields.io/npm/v/@mahdikhashan/vue3-click-outside/latest?style=plastic)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mahdikhashan/vue3-click-outside)
+![npm](https://img.shields.io/npm/dy/@mahdikhashan/vue3-click-outside)
+![npm peer dependency version](https://img.shields.io/npm/dependency-version/@mahdikhashan/vue3-click-outside/peer/vue)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/mahdikhashan/vue3-click-outside)
+![NPM](https://img.shields.io/npm/l/@mahdikhashan/vue3-click-outside)
 
 ## Directive for Vue 3 to run a method on clicking outside of the binded element
 
@@ -13,7 +13,7 @@
 
 ## Demo
 
-[Demo](https://codesandbox.io/s/vue-onpagevideo-custom-directive-85p0oo)
+[Demo](https://codesandbox.io/s/vue3-click-out-side-i6zhbb)
 
 
 ## Installation
@@ -27,26 +27,53 @@ add the custom directive to you component
 
 ```
 <template>
-  <div class="hello">
-    <video v-on-page-video width="320" height="240" controls>
-      <source
-        src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        type="video/mp4"
-      />
-    </video>
-  </div>
+  <main>
+    <div v-click-out-side="customMethod" @click="clickInside" class="box">
+      BOX
+    </div>
+    <br />
+    <p>Outside of the box</p>
+  </main>
 </template>
 
 <script>
-import onPageVideo from "@mahdikhashan/v-on-page-video";
+import clickOutSide from "@mahdikhashan/vue3-click-outside";
 
 export default {
-  name: "HelloWorld",
+  name: "Box",
   directives: {
-    onPageVideo,
+    clickOutSide,
+  },
+  props: {
+    msg: String,
+  },
+  methods: {
+    customMethod() {
+      alert("You clicked outside the box!");
+    },
+    clickInside() {
+      alert("You clicked inside the box!");
+    },
   },
 };
 </script>
+
+<style scoped>
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+p {
+  font-size: 2rem;
+  font-weight: 800;
+}
+</style>
+
 ```
 
 ## Contributing
