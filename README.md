@@ -76,6 +76,13 @@ p {
 
 ```
 
+### Use Composition Api
+If you want to use the library with the <script setup> or composition api, you need to rename the object like bellow.
+
+```
+import { clickOutSide as vClickOutSide } from '@mahdikhashan/vue3-click-outside'
+```
+
 ## Contributing
 
 If you want to contribute to this project simply fork it and clone it then run
