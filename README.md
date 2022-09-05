@@ -1,5 +1,5 @@
 # vue3-click-outside
-## Directive for Vue 3 to run a method on clicking outside of the binded element
+Directive for Vue 3 to run a method on clicking outside of the binded element
 
 ![npm (tag)](https://img.shields.io/npm/v/@mahdikhashan/vue3-click-outside/latest?style=plastic)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mahdikhashan/vue3-click-outside)
