@@ -9,8 +9,6 @@
 ## Directive for Vue 3 to run a method on clicking outside of the binded element
 
 
---- 
-
 ## Demo
 
 [Demo](https://codesandbox.io/s/vue3-click-out-side-i6zhbb)
