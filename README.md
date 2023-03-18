@@ -22,7 +22,7 @@ npm install --save @mahdikhashan/vue3-click-outside
 ## How to use
 add the custom directive to you component
 
-```
+```js
 <template>
   <main>
     <div v-click-out-side="customMethod" @click="clickInside" class="box">
@@ -76,7 +76,7 @@ p {
 ### Use Composition Api
 If you want to use the library with the <script setup> or composition api, you need to rename the object like bellow.
 
-```
+```js
 import { clickOutSide as vClickOutSide } from '@mahdikhashan/vue3-click-outside'
 ```
 
