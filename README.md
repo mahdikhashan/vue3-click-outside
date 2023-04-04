@@ -82,14 +82,24 @@ import { clickOutSide as vClickOutSide } from '@mahdikhashan/vue3-click-outside'
 
 ## Contributing
 
-If you want to contribute to this project simply fork it and clone it then run
-`npm i`
-in the root of the project, then run
-`npm run start`
-to run development server.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Licence and cast
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-MIT Licence
+## License
 
-by [Mahdi Khashan](https://www.linkedin.com/in/mahdi-khashan-ir/)
+Distributed under the MIT License. See [`LICENSE`](./LICENSE.md) for more information.
+
+## Contributors
+
+Many thanks for your help!
+
+<a href="https://github.com/mahdikhashan/99-minutes-emails/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mahdikhashan/99-minutes-emails" />
+</a>
+
+The image of contributors is made with [contrib.rocks](https://contrib.rocks).
